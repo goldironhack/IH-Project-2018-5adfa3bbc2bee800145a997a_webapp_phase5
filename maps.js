@@ -24,7 +24,7 @@ function splitValue2(value, index) {
 }
 
 function getRandomColor() {
-    var letters = '0123456789ABCDEF';
+    var letters = '024683571CBAGHFI';
     var color = '#';
     for (var i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
@@ -188,7 +188,10 @@ function initMap() {
         
         
     });
+    
 
+    
+    
 var image = 'http://subirimagen.me/uploads/20180530010014.png';
   var beachMarker = new google.maps.Marker({
     position: {lat:40.7293874, lng:-73.998038},
@@ -557,8 +560,6 @@ function drawByName(name){
           
     }
 }
-
-
 
 
 $("document").ready(function(){
